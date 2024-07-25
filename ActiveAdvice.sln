@@ -1,0 +1,189 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.ApplicationBlocks.Data", "Common\Microsoft.ApplicationBlocks.Data\Microsoft.ApplicationBlocks.Data.csproj", "{30933672-466E-4F67-A111-ABF267539146}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetsoftUSA.DataLayer", "Common\NetsoftUSA.DataLayer\NetsoftUSA.DataLayer.csproj", "{3CD4833E-034A-4B38-92DE-7C47F73FFAA4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetsoftUSA.WebControls", "Common\NetsoftUSA.WebControls\NetsoftUSA.WebControls.csproj", "{D0989569-3780-43E6-8ED9-F3E5393F09B3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetsoftUSA.WebForms", "Common\NetsoftUSA.WebForms\NetsoftUSA.WebForms.csproj", "{45652075-3BA4-4FF8-BB99-CFE6787B77B7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetsoftUSA.InfragisticsWeb", "Common\NetsoftUSA.InfragisticsWeb\NetsoftUSA.InfragisticsWeb.csproj", "{74A79847-A719-4A1F-A341-378DC5ED3D7B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{A449B91C-A8EF-4B76-8EE1-0F3DC04D534C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDataLayer", "TestDataLayer\TestDataLayer.csproj", "{B66D5F7E-47A4-49E0-BF50-3C0A3EC395FE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetsoftUSA.Security", "Common\NetsoftUSA.Security\NetsoftUSA.Security.csproj", "{D204EB6E-8D13-4E8D-A84B-A9D83DCE1AA2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveAdviceService", "ActiveAdviceService\ActiveAdviceService.csproj", "{A2304B71-6DFE-4814-B20F-C18091EDD2EA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceApp", "ActiveAdviceService\ServiceApp\ServiceApp.csproj", "{683F60D9-4372-43C4-B257-7C1022668CA1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ActiveAdvice", "ActiveAdviceDeployment\ActiveAdviceDeployment.vdproj", "{3C3BF45B-BBF1-4563-9A43-B49B90FE137E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AAService", "ActiveAdviceServiceSetup\ActiveAdviceServiceSetup.vdproj", "{D0F4F6EA-5687-440F-85DB-BF370A3535B1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveAdviceWeb", "http://localhost/ActiveAdviceWeb/ActiveAdviceWeb.csproj", "{64CFE172-EA56-4D36-A615-8B0308A0C4F6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DRGGrouperCOMWrapper", "Common\DRGGrouperCOMWrapper\DRGGrouperCOMWrapper.vcproj", "{AB730E72-2E84-49C7-B5A5-854B4794EC9A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 15
+		SccProjectName0 = \u0022$/ActiveAdvice.root/ActiveAdvice\u0022,\u0020OOAAAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SolutionUniqueID = {6A132F24-73E2-4A23-96BB-47816C73FB12}
+		SccProjectUniqueName1 = Common\\Microsoft.ApplicationBlocks.Data\\Microsoft.ApplicationBlocks.Data.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = Common\\Microsoft.ApplicationBlocks.Data\\
+		SccProjectUniqueName2 = Common\\NetsoftUSA.DataLayer\\NetsoftUSA.DataLayer.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = Common\\NetsoftUSA.DataLayer\\
+		SccProjectUniqueName3 = Common\\NetsoftUSA.InfragisticsWeb\\NetsoftUSA.InfragisticsWeb.csproj
+		SccLocalPath3 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection3 = Common\\NetsoftUSA.InfragisticsWeb\\
+		SccProjectUniqueName4 = Common\\NetsoftUSA.Security\\NetsoftUSA.Security.csproj
+		SccLocalPath4 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection4 = Common\\NetsoftUSA.Security\\
+		SccProjectUniqueName5 = Common\\NetsoftUSA.WebControls\\NetsoftUSA.WebControls.csproj
+		SccLocalPath5 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection5 = Common\\NetsoftUSA.WebControls\\
+		SccProjectUniqueName6 = Common\\NetsoftUSA.WebForms\\NetsoftUSA.WebForms.csproj
+		SccLocalPath6 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection6 = Common\\NetsoftUSA.WebForms\\
+		SccProjectUniqueName7 = DataLayer\\DataLayer.csproj
+		SccLocalPath7 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection7 = DataLayer\\
+		SccProjectUniqueName8 = TestDataLayer\\TestDataLayer.csproj
+		SccLocalPath8 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection8 = TestDataLayer\\
+		SccProjectUniqueName9 = ActiveAdviceService\\ActiveAdviceService.csproj
+		SccLocalPath9 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection9 = ActiveAdviceService\\
+		SccProjectUniqueName10 = ActiveAdviceService\\ServiceApp\\ServiceApp.csproj
+		SccLocalPath10 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection10 = ActiveAdviceService\\ServiceApp\\
+		SccProjectUniqueName11 = ActiveAdviceDeployment\\ActiveAdviceDeployment.vdproj
+		SccLocalPath11 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection11 = ActiveAdviceDeployment\\
+		SccProjectUniqueName12 = ActiveAdviceServiceSetup\\ActiveAdviceServiceSetup.vdproj
+		SccLocalPath12 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection12 = ActiveAdviceServiceSetup\\
+		SccProjectUniqueName13 = http://localhost/ActiveAdviceWeb/ActiveAdviceWeb.csproj
+		SccProjectName13 = \u0022$/ActiveAdvice.root/ActiveAdviceWeb\u0022,\u0020POAAAAAA
+		SccLocalPath13 = http://localhost/ActiveAdviceWeb/
+		CanCheckoutShared = false
+		SccProjectEnlistmentChoice13 = 2
+		SccProjectUniqueName14 = Common\\DRGGrouperCOMWrapper\\DRGGrouperCOMWrapper.vcproj
+		SccLocalPath14 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection14 = Common\\DRGGrouperCOMWrapper\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{30933672-466E-4F67-A111-ABF267539146}.Debug.ActiveCfg = Debug|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Debug.Build.0 = Debug|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Release.ActiveCfg = Release|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Release.Build.0 = Release|.NET
+		{3CD4833E-034A-4B38-92DE-7C47F73FFAA4}.Debug.ActiveCfg = Debug|.NET
+		{3CD4833E-034A-4B38-92DE-7C47F73FFAA4}.Debug.Build.0 = Debug|.NET
+		{3CD4833E-034A-4B38-92DE-7C47F73FFAA4}.Release.ActiveCfg = Release|.NET
+		{3CD4833E-034A-4B38-92DE-7C47F73FFAA4}.Release.Build.0 = Release|.NET
+		{D0989569-3780-43E6-8ED9-F3E5393F09B3}.Debug.ActiveCfg = Debug|.NET
+		{D0989569-3780-43E6-8ED9-F3E5393F09B3}.Debug.Build.0 = Debug|.NET
+		{D0989569-3780-43E6-8ED9-F3E5393F09B3}.Release.ActiveCfg = Release|.NET
+		{D0989569-3780-43E6-8ED9-F3E5393F09B3}.Release.Build.0 = Release|.NET
+		{45652075-3BA4-4FF8-BB99-CFE6787B77B7}.Debug.ActiveCfg = Debug|.NET
+		{45652075-3BA4-4FF8-BB99-CFE6787B77B7}.Debug.Build.0 = Debug|.NET
+		{45652075-3BA4-4FF8-BB99-CFE6787B77B7}.Release.ActiveCfg = Release|.NET
+		{45652075-3BA4-4FF8-BB99-CFE6787B77B7}.Release.Build.0 = Release|.NET
+		{74A79847-A719-4A1F-A341-378DC5ED3D7B}.Debug.ActiveCfg = Debug|.NET
+		{74A79847-A719-4A1F-A341-378DC5ED3D7B}.Debug.Build.0 = Debug|.NET
+		{74A79847-A719-4A1F-A341-378DC5ED3D7B}.Release.ActiveCfg = Release|.NET
+		{74A79847-A719-4A1F-A341-378DC5ED3D7B}.Release.Build.0 = Release|.NET
+		{A449B91C-A8EF-4B76-8EE1-0F3DC04D534C}.Debug.ActiveCfg = Debug|.NET
+		{A449B91C-A8EF-4B76-8EE1-0F3DC04D534C}.Debug.Build.0 = Debug|.NET
+		{A449B91C-A8EF-4B76-8EE1-0F3DC04D534C}.Release.ActiveCfg = Release|.NET
+		{A449B91C-A8EF-4B76-8EE1-0F3DC04D534C}.Release.Build.0 = Release|.NET
+		{B66D5F7E-47A4-49E0-BF50-3C0A3EC395FE}.Debug.ActiveCfg = Debug|.NET
+		{B66D5F7E-47A4-49E0-BF50-3C0A3EC395FE}.Debug.Build.0 = Debug|.NET
+		{B66D5F7E-47A4-49E0-BF50-3C0A3EC395FE}.Release.ActiveCfg = Release|.NET
+		{B66D5F7E-47A4-49E0-BF50-3C0A3EC395FE}.Release.Build.0 = Release|.NET
+		{D204EB6E-8D13-4E8D-A84B-A9D83DCE1AA2}.Debug.ActiveCfg = Debug|.NET
+		{D204EB6E-8D13-4E8D-A84B-A9D83DCE1AA2}.Debug.Build.0 = Debug|.NET
+		{D204EB6E-8D13-4E8D-A84B-A9D83DCE1AA2}.Release.ActiveCfg = Release|.NET
+		{D204EB6E-8D13-4E8D-A84B-A9D83DCE1AA2}.Release.Build.0 = Release|.NET
+		{A2304B71-6DFE-4814-B20F-C18091EDD2EA}.Debug.ActiveCfg = Debug|.NET
+		{A2304B71-6DFE-4814-B20F-C18091EDD2EA}.Debug.Build.0 = Debug|.NET
+		{A2304B71-6DFE-4814-B20F-C18091EDD2EA}.Release.ActiveCfg = Release|.NET
+		{A2304B71-6DFE-4814-B20F-C18091EDD2EA}.Release.Build.0 = Release|.NET
+		{683F60D9-4372-43C4-B257-7C1022668CA1}.Debug.ActiveCfg = Debug|.NET
+		{683F60D9-4372-43C4-B257-7C1022668CA1}.Debug.Build.0 = Debug|.NET
+		{683F60D9-4372-43C4-B257-7C1022668CA1}.Release.ActiveCfg = Release|.NET
+		{683F60D9-4372-43C4-B257-7C1022668CA1}.Release.Build.0 = Release|.NET
+		{3C3BF45B-BBF1-4563-9A43-B49B90FE137E}.Debug.ActiveCfg = Debug
+		{3C3BF45B-BBF1-4563-9A43-B49B90FE137E}.Release.ActiveCfg = Release
+		{D0F4F6EA-5687-440F-85DB-BF370A3535B1}.Debug.ActiveCfg = Debug
+		{D0F4F6EA-5687-440F-85DB-BF370A3535B1}.Release.ActiveCfg = Release
+		{64CFE172-EA56-4D36-A615-8B0308A0C4F6}.Debug.ActiveCfg = Debug|.NET
+		{64CFE172-EA56-4D36-A615-8B0308A0C4F6}.Debug.Build.0 = Debug|.NET
+		{64CFE172-EA56-4D36-A615-8B0308A0C4F6}.Release.ActiveCfg = Release|.NET
+		{64CFE172-EA56-4D36-A615-8B0308A0C4F6}.Release.Build.0 = Release|.NET
+		{AB730E72-2E84-49C7-B5A5-854B4794EC9A}.Debug.ActiveCfg = Debug|Win32
+		{AB730E72-2E84-49C7-B5A5-854B4794EC9A}.Debug.Build.0 = Debug|Win32
+		{AB730E72-2E84-49C7-B5A5-854B4794EC9A}.Release.ActiveCfg = Release|Win32
+		{AB730E72-2E84-49C7-B5A5-854B4794EC9A}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		Documents\composite.vsd = Documents\composite.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
